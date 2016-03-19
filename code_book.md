@@ -35,21 +35,21 @@ records.
 
 The files we require to construct our final tidy data set are :
 
-Training data:
+**Training data:**
 
 * getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/train/subject_test.txt - list of subject identifiers (1-30) corresponding to every record
 * getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/train/X_test.txt - list of the 561 measurement variable vectors for each record
 * getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/train/y_test.txt- list of the activity identifiers (1-6) for each record
 
 Similarly,
-Test data:
+**Test data:**
 
 * getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/test/subject_test.txt
 * getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/test/X_test.txt
 * getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/test/y_test.txt
 
 
-Files for labeling:
+**Files for labeling:**
 
 * getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/features.txt - The list of features corresponding to each of the 561 measurement variables
 * getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/activity_labels.txt - The list of activities corresponing to the activity identifiers
