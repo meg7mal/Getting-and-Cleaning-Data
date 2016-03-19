@@ -66,14 +66,11 @@ Files for labeling:
  
 The final output tidy data set will have **180 records** and the following **68 columns**
 
-*Column 1:* subject (integer)- An identifier for the subject who participated
+**Column 1:** subject (integer)- An identifier for the subject who participated
 
-*Column 2:*activity_name (factor)- An descriptive name for the activiy instead of a numerical identifier (found in activity_labels.txt)
+**Column 2:** activity_name (factor)- An descriptive name for the activiy instead of a numerical identifier (found in activity_labels.txt)
                              The activity identifier column ("activity") is dropped after the merge with the table read from
-                             activity_labels.txt because it is redundant. The factor levels are WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS,
-                             SITTING, STANDING and LAYING.
+                             activity_labels.txt because it is redundant. The factor levels are WALKING, WALKING_UPSTAIRS,                                         WALKING_DOWNSTAIRS, SITTING, STANDING and LAYING.
                             
-
-*Column 3 - Column 68:* corresponding to the **averages** of only the **mean() and std()** of various measurements. _**The data set is grouped by
-                             subject and activity_name and the avergages for each mean() and std() feature are calculated.**_
+**Column 3 - Column 68:** Correspond to the **averages** of only the **mean() and std()** of various measurements. _**The data set is                           grouped by subject and activity_name and the avergages for each mean() and std() feature are calculated.**_
 
