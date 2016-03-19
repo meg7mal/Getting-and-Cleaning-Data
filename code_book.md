@@ -72,5 +72,5 @@ The final output tidy data set will have **180 records** and the following **68 
                              The activity identifier column ("activity") is dropped after the merge with the table read from
                              activity_labels.txt because it is redundant. The factor levels are WALKING, WALKING_UPSTAIRS,                                         WALKING_DOWNSTAIRS, SITTING, STANDING and LAYING.
                             
-**Column 3 - Column 68:** Correspond to the **averages** of only the **mean() and std()** of various measurements. _**The data set is                           grouped by subject and activity_name and the avergages for each mean() and std() feature are calculated.**_
+**Column 3 - Column 68:** (numeric) Correspond to the **averages** of only the **mean() and std()** of various measurements. _**The                                       data set is grouped by subject and activity_name and the avergages for each mean() and std()                                          features are calculated.**_
 
